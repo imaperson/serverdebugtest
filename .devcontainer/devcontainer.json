@@ -1,0 +1,22 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
+{
+	"name": "Test",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"vscjava.vscode-java-pack",
+				"vscjava.vscode-maven",
+				"redhat.vscode-xml",
+				"ms-azuretools.vscode-docker",
+				"davidanson.vscode-markdownlint",
+				"eamodio.gitlens",
+				"mhutchie.git-graph",
+				"redhat.vscode-community-server-connector"
+			]
+		}
+	}
+}
